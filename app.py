@@ -97,7 +97,10 @@ def show_header():
     header_cols = st.columns([1, 3])
     with header_cols[0]:
         # 로고 이미지: 로고 파일 경로("logo.png")를 실제 파일 경로로 수정하세요.
-        st.image("./src/imgs/logo.svg", width=120)
+        # no image 추가 해야함
+        # st.image("no image", width=120)
+        # st.image("./src/imgs/logo.svg", width=120)
+        st.markdown("<br>", unsafe_allow_html=True)
 
 
 def main():
