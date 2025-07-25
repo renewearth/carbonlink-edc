@@ -184,7 +184,7 @@ def main():
         st.markdown("""
                     <div class="centered-content">
             <p class="description">
-            본 입력 양식은 SK에너지 조직경계의 Scope 1, 2 탄소 배출 데이터를 수집하기 위해 제공됩니다.<br>
+            본 입력 양식은 만신홀딩스 조직경계의 Scope 1, 2 탄소 배출 데이터를 수집하기 위해 제공됩니다.<br>
             각 지사의 활동데이터 담당자분들께서는 매월 관리하시는 활동데이터를 입력해 주시면 됩니다.<br>
             이용에 어려움이 있으시다면 언제든 고객지원센터로 연락해 주세요.
             </p>
@@ -206,7 +206,7 @@ def main():
         st.markdown("""<div class="centered-content">
             <p class="description">
             아래 내용을 확인 후 이상이 없다면 <strong>'예'</strong>, 사실과 다르다면 <strong>'아니오'</strong>를 선택해 주세요.<br><br>
-            1. 법인명: SK에너지(주) <br>
+            1. 법인명: 만신홀딩스 <br>
             2. 사업장: 울산지사<br><br>
             담당자분이 속한 법인과 사업장이 맞나요?
             </p>
@@ -418,7 +418,7 @@ def main():
         st.markdown("""<div class="centered-content">
             <p class="description">
             활동데이터가 성공적으로 제출되었습니다.<br>
-            제출하신 데이터는 SK에너지의 탄소배출량 계산에 활용됩니다.<br>
+            제출하신 데이터는 만신홀딩스의 탄소배출량 계산에 활용됩니다.<br>
             </p>
             </div>
         """, unsafe_allow_html=True)
